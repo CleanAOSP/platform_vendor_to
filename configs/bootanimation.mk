@@ -13,6 +13,10 @@
 # limitations under the License.
 
 # Add Stock Lollipop bootanimation based on device
+ifneq ($(filter nexus_hammerhead,$(TARGET_PRODUCT)),)
+    PRODUCT_COPY_FILES += \
+        vendor/to/prebuilt/bootanimation/1080.zip:system/media/bootanimation.zip
+endif
 ifneq ($(filter nexus_grouper,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/to/prebuilt/bootanimation/grouper.zip:system/media/bootanimation.zip

@@ -18,5 +18,9 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     libemoji 
 
+# SuperSU FTW
+PRODUCT_COPY_FILES += \
+    vendor/to/prebuilt/supersu/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
+    vendor/to/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon
 
 

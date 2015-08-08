@@ -12,10 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# init.d script support
+PRODUCT_COPY_FILES += \
+    vendor/to/prebuilt/bin/sysinit:system/bin/sysinit
 
+# userinit support
+PRODUCT_COPY_FILES += \
+    vendor/to/prebuilt/etc/init.d/90userinit:system/etc/init.d/90userinit
 
-include vendor/to/configs/aosp_fixes.mk
-include vendor/to/configs/nexus_build.mk
-include vendor/to/configs/bootanimation.mk
-include vendor/nexus/configs/system.mk
+# vendor-specific init file
+PRODUCT_COPY_FILES += \
+    vendor/to/prebuilt/etc/init.local.rc:root/init.vendor.rc
 
+# Security Enhanced Linux
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.selinux=1

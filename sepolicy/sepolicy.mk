@@ -4,7 +4,7 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    vendor/nexus/sepolicy
+    vendor/to/sepolicy
 
 BOARD_SEPOLICY_UNION += \
     file.te \

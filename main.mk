@@ -17,5 +17,5 @@
 include vendor/to/configs/aosp_fixes.mk
 include vendor/to/configs/nexus_build.mk
 include vendor/to/configs/bootanimation.mk
-include vendor/nexus/configs/system.mk
+include vendor/to/configs/system.mk
 

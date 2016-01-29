@@ -1,21 +1,20 @@
 [
     {
-      "remote":      "to",
-      "repository":  "platform_device_moto_shamu",
+      "remote":      "github",
+      "repository":  "PureNexusProject/android_device_moto_shamu",
       "target_path": "device/moto/shamu",
-      "revision":    "to-6.0"
+      "revision":    "mm"
     },
     {
-      "remote":      "aosp",
-      "repository":  "device/moto/shamu-kernel",
-      "target_path": "device/moto/shamu-kernel",
-      "revision":    "refs/tags/android-6.0.1_r3",
-      "clone_depth": "1"
+      "remote":      "github",
+      "repository":  "PureNexusProject/android_kernel_moto_shamu",
+      "target_path": "kernel/moto/shamu",
+      "revision":    "mm"
     },
     {
-      "remote":      "to",
-      "repository":  "proprietary_vendor_moto",
+      "remote":      "github",
+      "repository":  "PureNexusProject/proprietary_vendor_moto",
       "target_path": "vendor/moto",
-      "revision":    "to-6.0"
+      "revision":    "mm"
     }
 ]

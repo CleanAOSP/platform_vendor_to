@@ -20,7 +20,7 @@ TARGET_SCREEN_WIDTH := 2560
 $(call inherit-product, vendor/to/config/common_full_phone.mk)
 
 # Inherit AOSP device configuration for shamu.
-$(call inherit-product, device/moto/shamu/aosp_shamu.mk)
+$(call inherit-product, device/motorola/shamu/aosp_shamu.mk)
 
 # Override AOSP build properties
 PRODUCT_NAME := to_shamu

@@ -1,13 +1,13 @@
 [
     {
       "remote":      "github",
-      "repository":  "device_motorola_shamu",
+      "repository":  "SlimRoms/device_motorola_shamu",
       "target_path": "device/motorola/shamu",
       "revision":    "mm6.0"
     },
     {
       "remote":      "github",
-      "repository":  "kernel_motorola_shamu",
+      "repository":  "SlimRoms/kernel_motorola_shamu",
       "target_path": "kernel/motorola/shamu",
       "revision":    "mm6.0"
     },

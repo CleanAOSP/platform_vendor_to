@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Include pure telephony configuration
-include vendor/pure/configs/pure_phone.mk
+include vendor/to/configs/pure_phone.mk
 
 # Inherit AOSP device configuration for marlin
 $(call inherit-product, device/google/marlin/aosp_marlin.mk)

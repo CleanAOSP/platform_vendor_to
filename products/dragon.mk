@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Include pure tablet configuration
-include vendor/pure/configs/pure_tablet.mk
+include vendor/to/configs/pure_tablet.mk
 
 # Inherit AOSP device configuration for dragon
 $(call inherit-product, device/google/dragon/aosp_dragon.mk)

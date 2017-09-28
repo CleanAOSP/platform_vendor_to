@@ -21,6 +21,10 @@ $(call inherit-product, device/google/marlin/aosp_marlin.mk)
 # Inherit arm64 phone gapps
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
+
 # Override AOSP build properties
 PRODUCT_NAME := marlin
 PRODUCT_BRAND := google

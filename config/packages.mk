@@ -23,8 +23,7 @@ PRODUCT_PACKAGES += \
     Substratum \
     ThemeInterfacer \
     OmniStyle \
-    VanillaMusic \
-    Turbo
+    VanillaMusic 
 
 # Custom off-mode charger
 ifneq ($(WITH_CM_CHARGER),false)
